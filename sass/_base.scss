@@ -31,5 +31,10 @@ body {
     font-family: $font-primary;
     color: $color-grey-dark-2;
     font-weight: 300;
-    
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
+    // grid-template-columns: repeat(8, minmax(min-content, 14rem));
 }
